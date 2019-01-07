@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/pronto_bg.qm</file>
+        <file alias="de">locale/pronto_de.qm</file>
+        <file alias="en">locale/pronto_en.qm</file>
+        <file alias="es">locale/pronto_es.qm</file>
+        <file alias="fi">locale/pronto_fi.qm</file>
+        <file alias="fr">locale/pronto_fr.qm</file>
+        <file alias="it">locale/pronto_it.qm</file>
+        <file alias="ja">locale/pronto_ja.qm</file>
+        <file alias="nl">locale/pronto_nl.qm</file>
+        <file alias="pl">locale/pronto_pl.qm</file>
+        <file alias="pt">locale/pronto_pt.qm</file>
+        <file alias="ru">locale/pronto_ru.qm</file>
+        <file alias="sk">locale/pronto_sk.qm</file>
+        <file alias="sv">locale/pronto_sv.qm</file>
+        <file alias="vi">locale/pronto_vi.qm</file>
+        <file alias="zh_CN">locale/pronto_zh_CN.qm</file>
+        <file alias="zh_TW">locale/pronto_zh_TW.qm</file>
+    </qresource>
+</RCC>

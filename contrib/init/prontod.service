@@ -1,0 +1,22 @@
+[Unit]
+Description=PRONTO's distributed currency daemon
+After=network.target
+
+[Service]
+User=prontocore
+Group=prontocore
+
+Type=forking
+PIDFile=/var/lib/prontod/prontod.pid
+ExecStart=/usr/bin/prontod -daemon -pid=/var/lib/prontod/prontod.pid \
+-conf=/etc/prontocore/pronto.conf -datadir=/var/lib/prontod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

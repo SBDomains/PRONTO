@@ -1,0 +1,6 @@
+usr/local/bin/pronto-qt usr/bin
+share/pixmaps/pronto32.xpm usr/share/pixmaps
+share/pixmaps/pronto16.xpm usr/share/pixmaps
+share/pixmaps/pronto128.png usr/share/pixmaps
+debian/pronto-qt.desktop usr/share/applications
+debian/pronto-qt.protocol usr/share/kde4/services/

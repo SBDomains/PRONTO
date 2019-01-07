@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PRONTO Core
+Comment=PRONTO P2P Cryptocurrency
+Comment[de]=Verbinde mit dem PRONTO peer-to-peer Netzwerk
+Comment[fr]=PRONTO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=PRONTO, eşten eşe kriptografik sanal para birimi
+Exec=pronto-qt %u
+Terminal=false
+Type=Application
+Icon=pronto128
+MimeType=x-scheme-handler/pronto;
+Categories=Office;Finance;
